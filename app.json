@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "demo",
-    "slug": "demo",
+    "name": "Inme HTS",
+    "slug": "InmeHTS",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F9C4B4"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +18,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.solarbiotech.inmemerkezihts",
+      "buildNumber" : "2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#F9C4B4"
+      },
+      "package": "com.solarbiotech.inmemerkezihts"
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "ab7c93f1-37e7-421b-b801-fef0c3c5815a"
+      }
     }
   }
 }
